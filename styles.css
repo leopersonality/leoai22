@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Basic styling for the chat container */
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the chat box where messages appear */
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    /* Customize further as needed */
+}
+
+/* Styling for the input area (user input field and send button) */
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+/* Style for the user input field */
+.input-area input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* Customize further as needed */
+}
+
+/* Style for the send button */
+.input-area button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    /* Customize further as needed */
+}
